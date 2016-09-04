@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pzl.picturecropper.MainActivity">
+    <item
+        android:id="@+id/action_clip"
+        android:orderInCategory="100"
+        android:title="裁剪图片"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_album"
+        android:orderInCategory="100"
+        android:title="相册"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_camera"
+        android:orderInCategory="100"
+        android:title="照相"
+        app:showAsAction="never" />
+</menu>
